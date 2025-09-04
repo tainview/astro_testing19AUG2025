@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.welcome-box {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-box:hover {
+  background-color: #e0e0e0;
+}
+
+.welcome-box h1 {
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.welcome-box p {
+  color: #333;
+}
